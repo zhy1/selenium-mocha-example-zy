@@ -1,0 +1,18 @@
+{
+  "name": "selenium-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./test/zgc.js",
+  "scripts": {
+    "test2": "node ./test/zgc \recho \"Info: view the two bower \" && exit 1",
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "test3": "./node_modules/.bin/mocha -V",
+    "tm": "./node_modules/.bin/mocha --timeout 25000 ./test/zgc.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "2.26.0",
+    "selenium-webdriver": "2.52.0"
+  }
+}
